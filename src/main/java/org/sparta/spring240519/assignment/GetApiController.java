@@ -68,7 +68,7 @@ public class GetApiController {
     // 숙제
     //w 질문 , 자동으로 주소값을 Springboot에서 매치시킨다고 했는데, DTO를 생성해놓고 파라미터에 DTO를 집어넣으면 알아서
     @GetMapping("/query-param3")
-    public String queryParam3(UserRequest userRequest){ //※ @RequestParam 앞에 붙이니까 에러나네요. 왜이러죠?
+    public String queryParam3(@ModelAttribute UserRequest userRequest){ //※ @ModelAttribute 생략가능 앞에 붙이니까 에러나네요. 왜이러죠?
 
                return userRequest.toString();
     }
