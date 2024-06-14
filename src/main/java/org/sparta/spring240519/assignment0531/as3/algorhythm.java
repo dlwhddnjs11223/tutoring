@@ -38,15 +38,3 @@ class Solution {
 }
 
 
-class Solution2 {
-    public int solution2(List<Integer> n, int[] m) {
-    m = new int[n.size()];
-
-
-
-        for(int i = 0; j < m[i]; j++){}
-
-    }
-
-    }
-}
