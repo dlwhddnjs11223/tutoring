@@ -4,10 +4,10 @@ import lombok.Getter;
 
 @Getter
 public class Car {
-
+    private static int Num = 10000;
     private int carNumber;
 
-    public Car(int carNumber) {
-      this.carNumber = carNumber;
+    public Car() {
+        this.carNumber = Num++;
     }
 }

@@ -1,10 +1,10 @@
 package org.sparta.spring240519.assignment0531.as2;
 
-public class Student {
+public class Person {
     private final String name;
     private int money;
 
-    public Student (String name, int money) {
+    public Person(String name, int money) {
         this.name = name;
         this.money = money;
     }
